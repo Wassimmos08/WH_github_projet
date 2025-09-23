@@ -1,0 +1,44 @@
+.home-container {
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  color: #fff;
+  text-align: center;
+  font-family: 'Georgia', serif;
+  padding: 2rem;
+}
+
+.hero {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+.main-heading {
+  font-size: 3rem;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.stars {
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.burger-section {
+  margin-top: 4rem;
+}
+
+.sub-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.4;
+}
+
+.burger-image {
+  margin-top: 2rem;
+  width: 300px;
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+}

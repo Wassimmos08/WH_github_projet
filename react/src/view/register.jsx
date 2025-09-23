@@ -12,7 +12,7 @@ const RegisterView = ({ onRegisterSuccess, onSwitchToLogin }) => {
   const [success, setSuccess] = useState("");
 
   // Use environment variable or default to localhost
-  const API_BASE_URL = process.env.REACT_APP_API_URL || "http://localhost:3001/api";
+  const API_BASE_URL = process.env.REACT_APP_API_URL || "http://localhost:5000/api";
 
   const handleChange = (e) => {
     const { name, value } = e.target;
